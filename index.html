@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AFONSO MUENA - Tecnologia & Formação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <!-- CABEÇALHO CORRIGIDO COM ÂNCORAS -->
+    <header id="inicio">
+        <div class="interface"> 
+            <div class="logo">
+                <a href="#inicio">
+                    <img src="images/imagem.png" alt="Logo da Afonso MUENA - Tecnologia">
+                </a>
+            </div>
+        </div>
+
+        <!-- Os links agora apontam exatamente para os IDs das seções de baixo -->
+        <nav class="Menu-Desktop">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#especialidades">Especialidades</a></li>
+                <li><a href="#portfolio">Projectos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+            </ul>
+        </nav>
+
+        <div class="btn-contato"> 
+            <a href="#contato">
+                <button type="button">Contato</button>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- SEÇÃO PRINCIPAL (HERO) -->
+        <section class="hero-section">
+            <div class="hero-text">
+                <h1>TRANSFORMANDO IDEIAS EM <span>REALIDADE DIGITAL.</span></h1>
+                <p>Criatividade e inovação andam lado a lado. Com uma combinação única de design inteligente, funcionalidade intuitiva e otimização para resultados, estou pronto para elevar a sua presença online ao próximo nível.</p>
+                <!-- Botão configurado para rolar direto até o formulário -->
+                <a href="#contato">
+                    <button class="btn-hero" type="button">Entre em contacto</button>
+                </a>
+            </div>
+
+            <div class="hero-image">
+                <div class="profile-bg">
+                    <img src="images/perfil.png" alt="Afonso Muena trabalhando com infraestrutura de TI">
+                </div>
+            </div>
+        </section>
+
+
+        <section class="especialidades-section" id="especialidades">
+            <h2>MINHAS <span>ESPECIALIDADES</span></h2>
+            <div class="cards-container">
+                <div class="card">
+                    <div class="icon">💻</div>
+                    <h3>Engenharia de Software</h3>
+                    <p>Desenvolvimento de sistemas robustos, escaláveis e APIs performáticas utilizando as melhores práticas de clean code.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">🌐</div>
+                    <h3>Aplicações Web</h3>
+                    <p>Criação de plataformas online interativas, dinâmicas e totalmente responsivas para qualquer tipo de dispositivo.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">🛡️</div>
+                    <h3>Infraestrutura & Cloud</h3>
+                    <p>Modelagem de arquiteturas em nuvem estáveis, conteinerização com Docker e automação de processos de deploy.</p>
+                </div>
+            </div>
+        </section>
+
+                <!-- SEÇÃO SOBRE (SOBRE O CEO) -->
+                <!-- SEÇÃO SOBRE COM LINKS CONFIGURADOS -->
+        <section class="sobre-section" id="sobre">
+            <div class="sobre-image">
+                <div class="sobre-img-container">
+                    <img src="images/perfil2.png" alt="Afonso Muena - Engenheiro Informático e de Redes">
+                </div>
+            </div>
+
+            <div class="sobre-text">
+                <h2>MUITO PRAZER,<br><span>SOU AFONSO MUENA.</span></h2>
+                <p>Sou Engenheiro Informático dedicado a criar soluções tecnológicas de alto desempenho e a liderar processos de transformação digital. O meu foco é arquitetar sistemas que unem código limpo, segurança de infraestrutura e uma experiência de utilização fluida.</p>
+                <p>Além do desenvolvimento de software, atuo fortemente na área de formação técnica, capacitando novos profissionais e equipas a dominarem as ferramentas modernas do mercado tecnológico com uma metodologia prática e orientada a resultados.</p>
+                
+                <div class="social-icons">
+                    <!-- Links das suas redes sociais -->
+                    <a href="https://linkedin.com" target="_blank" title="LinkedIn">in</a>
+                    <a href="https://github.com" target="_blank" title="GitHub">git</a>
+    
+                    <!-- O seu número real já inserido corretamente sem pontos para evitar erros -->
+                    <a href="https://wa.me." target="_blank" title="WhatsApp">wa</a>
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+                <section class="portfolio-section" id="portfolio">
+            <h2>MEU <span>PORTFÓLIO</span></h2>
+            <p class="portfolio-subtitle">Estes são alguns dos meus principais projetos técnicos</p>
+            
+            <div class="portfolio-grid">
+                <!-- Projeto 1: BGP & HA -->
+                <div class="portfolio-item">
+                    <div class="portfolio-thumb">
+                        <img src="images/proj1.png" alt="Topologia BGP, Alta Disponibilidade e M-LAG">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Arquitetura BGP com Alta Disponibilidade & M-LAG</h3>
+                        <p>Implementação de infraestrutura de rede resiliente utilizando protocolo BGP para redundância de caminhos, associado a M-LAG para agregação de links em ambientes de alta criticidade.</p>
+                    </div>
+                </div>
+
+                <!-- Projeto 2: SD-WAN -->
+                <div class="portfolio-item">
+                    <div class="portfolio-thumb">
+                        <img src="images/proj2.png" alt="Topologia de Rede SD-WAN">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Implementação e Otimização de SD-WAN</h3>
+                        <p>Desenho e deploy de solução de rede definida por software (SD-WAN), centralizando o gerenciamento de tráfego, melhorando o desempenho de links e garantindo segurança entre filiais.</p>
+                    </div>
+                </div>
+
+                <!-- Projeto 3: Formação/TI (Mantido como um terceiro pilar para o layout) -->
+                <div class="portfolio-item">
+                    <div class="portfolio-thumb">
+                        <img src="images/perfil.png" alt="Infraestrutura e Formação Tecnológica">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Infraestrutura de Data Center & Formação</h3>
+                        <p>Desenvolvimento de laboratórios práticos e consultoria corporativa voltada para capacitação de equipes de engenharia em ambientes avançados de TI.</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn-ver-mais" type="button">Ver mais</button>
+        </section>
+
+        <section class="contato-section" id="contato">
+            <h2>FALA <span>COMIGO</span></h2>
+            <p>Vamos tirar as suas ideias do papel</p>
+            <form class="form-container" action="#" method="POST">
+                <input type="text" name="nome" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu E-mail" required>
+                <input type="tel" name="celular" placeholder="Seu Celular">
+                <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+                <button class="btn-enviar" type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-logo">AFONSO MUENA</div>
+        <p>&copy; 2026 Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
