@@ -1,7 +1,6 @@
 /* ==========================================================================
-   PARTE 1: CONFIGURAÇÕES GERAIS, CABEÇALHO E SEÇÃO PRINCIPAL (HERO)
+   CONFIGURAÇÕES GERAIS, CABEÇALHO E HERO
    ========================================================================== */
-
 * {
     margin: 0;
     padding: 0;
@@ -148,9 +147,8 @@ header {
 }
 
 /* ==========================================================================
-   PARTE 2: SEÇÕES ESPECIALIDADES, SOBRE, PORTFÓLIO E FORMULÁRIO DE CONTACTO
+   SEÇÕES ESPECIALIDADES, SOBRE, PORTFÓLIO E CONTACTO
    ========================================================================== */
-
 .especialidades-section {
     padding: 80px 8%;
     text-align: center;
@@ -476,3 +474,83 @@ footer p {
     color: #666666;
     font-size: 13px;
 }
+
+/* ==========================================================================
+   RESPONSIVIDADE COMPLETA PARA TELEMÓVEL
+   ========================================================================== */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 15px 5%;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .Menu-Desktop ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .Menu-Desktop ul li {
+        margin: 0 10px;
+    }
+
+    .hero-section {
+        flex-direction: column-reverse; /* Foto vai para cima, texto para baixo */
+        padding: 40px 5%;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
+
+    .hero-text h1 {
+        font-size: 32px;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    .profile-bg {
+        width: 260px;
+        height: 350px;
+    }
+
+    .especialidades-section {
+        padding: 50px 5%;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .sobre-section {
+        flex-direction: column;
+        padding: 50px 5%;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .sobre-image, .sobre-text {
+        width: 100%;
+    }
+
+    .sobre-img-container {
+        width: 260px;
+        height: 320px;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .portfolio-section {
+        padding: 50px 5%;
+    }
+
+    .portfolio-grid {
