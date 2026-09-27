@@ -150,11 +150,20 @@
         <section class="contato-section" id="contato">
             <h2>FALA <span>COMIGO</span></h2>
             <p>Vamos tirar as suas ideias do papel</p>
-            <form class="form-container" action="#" method="POST">
+            
+            <!-- Formulário configurado com o serviço FormSubmit conectado ao seu Gmail -->
+            <form class="form-container" action="https://formsubmit.co" method="POST">
+                
+                <!-- Configurações extras obrigatórias do serviço -->
+                <input type="hidden" name="_next" value="https://github.io">
+                <input type="hidden" name="_captcha" value="false">
+
+                <!-- Campos do formulário -->
                 <input type="text" name="nome" placeholder="Seu Nome" required>
                 <input type="email" name="email" placeholder="Seu E-mail" required>
                 <input type="tel" name="celular" placeholder="Seu Celular">
                 <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+                
                 <button class="btn-enviar" type="submit">Enviar</button>
             </form>
         </section>
