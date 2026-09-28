@@ -554,3 +554,8 @@ footer p {
     }
 
     .portfolio-grid {
+       .social-icons a[title="Facebook"]:hover {
+    background-color: #1877f2 !important;
+    color: #ffffff !important;
+}
+
