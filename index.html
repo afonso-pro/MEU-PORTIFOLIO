@@ -176,18 +176,20 @@
             <button class="btn-ver-mais" type="button">Ver mais</button>
         </section>
 
+                <!-- SEÇÃO FALA COMIGO COM REDIRECIONAMENTO COMPLETO -->
         <section class="contato-section" id="contato">
             <h2>FALA <span>COMIGO</span></h2>
             <p>Vamos tirar as suas ideias do papel</p>
             
-            <!-- Formulário configurado com o serviço FormSubmit conectado ao seu Gmail -->
             <form class="form-container" action="https://formsubmit.co" method="POST">
                 
-                <!-- Configurações extras obrigatórias do serviço -->
+                <!-- ESTA LINHA DIZ AO SISTEMA PARA ABRIR A SUA PÁGINA DE OBRIGADO -->
                 <input type="hidden" name="_next" value="https://github.io">
+                
+                <!-- Remove o Captcha chato para o envio ser direto -->
                 <input type="hidden" name="_captcha" value="false">
 
-                <!-- Campos do formulário -->
+                <!-- Campos de entrada de dados -->
                 <input type="text" name="nome" placeholder="Seu Nome" required>
                 <input type="email" name="email" placeholder="Seu E-mail" required>
                 <input type="tel" name="celular" placeholder="Seu Celular">
@@ -196,6 +198,7 @@
                 <button class="btn-enviar" type="submit">Enviar</button>
             </form>
         </section>
+
     </main>
 
     <footer>
