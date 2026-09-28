@@ -177,17 +177,15 @@
         </section>
 
                 <!-- SEÇÃO FALA COMIGO COM REDIRECIONAMENTO COMPLETO -->
-        <section class="contato-section" id="contato">
+                <section class="contato-section" id="contato">
             <h2>FALA <span>COMIGO</span></h2>
             <p>Vamos tirar as suas ideias do papel</p>
             
+            <!-- E-mail corrigido e sem a linha do captcha para permitir a primeira ativação -->
             <form class="form-container" action="https://formsubmit.co" method="POST">
                 
-                <!-- ESTA LINHA DIZ AO SISTEMA PARA ABRIR A SUA PÁGINA DE OBRIGADO -->
-                <input type="hidden" name="_captcha" value="false">
-                
-                <!-- Remove o Captcha chato para o envio ser direto -->
-                <!-- input type="hidden" name="_captcha" value="false">
+                <!-- Redirecionamento para a sua página de sucesso -->
+                <input type="hidden" name="_next" value="https://github.io">
 
                 <!-- Campos de entrada de dados -->
                 <input type="text" name="nome" placeholder="Seu Nome" required>
