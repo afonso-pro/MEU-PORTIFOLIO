@@ -177,22 +177,16 @@
         </section>
 
                 <!-- SEÇÃO FALA COMIGO COM REDIRECIONAMENTO COMPLETO -->
-                <section class="contato-section" id="contato">
+                      <!-- FORMULÁRIO CONFIGURADO PARA ATIVAÇÃO PURA -->
+        <section class="contato-section" id="contato">
             <h2>FALA <span>COMIGO</span></h2>
             <p>Vamos tirar as suas ideias do papel</p>
             
-            <!-- E-mail corrigido e sem a linha do captcha para permitir a primeira ativação -->
             <form class="form-container" action="https://formsubmit.co" method="POST">
-                
-                <!-- Redirecionamento para a sua página de sucesso -->
-                <input type="hidden" name="_next" value="https://github.io">
-
-                <!-- Campos de entrada de dados -->
                 <input type="text" name="nome" placeholder="Seu Nome" required>
                 <input type="email" name="email" placeholder="Seu E-mail" required>
                 <input type="tel" name="celular" placeholder="Seu Celular">
                 <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
-                
                 <button class="btn-enviar" type="submit">Enviar</button>
             </form>
         </section>
